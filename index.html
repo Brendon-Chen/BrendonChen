@@ -24,12 +24,16 @@
     <nav id="hamburger_nav">
       <div class="logo">Brendon Chen</div>
       <div class="hamburger_menu">
-        <div class="hamburger_icon"></div>
+        <div class="hamburger_icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <ul class="hamburger_links">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#About" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
         </ul>
       </div>
     </nav>
