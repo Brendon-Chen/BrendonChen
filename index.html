@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- Desktop -->
     <nav id="desktop_nav">
       <div class="logo">Brendon Chen</div>
       <div>
@@ -21,6 +22,7 @@
       </div>
     </nav>
 
+    <!-- Mobile -->
     <nav id="hamburger_nav">
       <div class="logo">Brendon Chen</div>
       <div class="hamburger_menu">
@@ -37,6 +39,44 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Profile -->
+    <section id="profile">
+      <div class="picture_container">
+        <img
+          src="images/Brendon-Chen-004-square.jpg"
+          alt="Brendon Chen Profile Picture"
+        />
+      </div>
+      <div class="profile_text">
+        <p class="profile_text_p1">Hello I'm</p>
+        <h1 class="profile_text_title">Brendon Chen</h1>
+
+        <div class="btn-container">
+          <button
+            class="btn-color-resume"
+            onclick="window.open('files/Resume.pdf')"
+          >
+            Download CV
+          </button>
+
+          <div class="socials_container">
+            <img
+              src="images/linkedin.png"
+              alt="My linkedin profile"
+              class="icon"
+              onclick="window.open('https://www.linkedin.com/in/brendonchen-/')"
+            />
+            <img
+              src="images/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="window.open('https://github.com/Brendon-Chen')"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="app.js"></script>
   </body>
