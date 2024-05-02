@@ -22,7 +22,7 @@
       </div>
     </nav>
 
-    <!-- Mobile -->
+    <!-- Hamburger -->
     <nav id="hamburger_nav">
       <div class="logo">Brendon Chen</div>
       <div class="hamburger_menu">
@@ -49,8 +49,8 @@
         />
       </div>
       <div class="profile_text">
-        <p class="profile_text_p1">Hello, I'm</p>
-        <h1 class="profile_text_title">Brendon Chen</h1>
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="section_text_title">Brendon Chen</h1>
 
         <div class="btn-container">
           <button
@@ -77,11 +77,13 @@
         </div>
       </div>
     </section>
+
+    <!-- About -->
     <section id="About">
-      <p class="profile_text_p1">Get To Know More</p>
-      <h1 class="profile_text_title">About Me</h1>
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="section_text_title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
+        <div class="picture_container">
           <img
             src="./images/about-pic.jpg"
             alt="Profile picture"
@@ -132,9 +134,44 @@
         src="./images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#Projects'"
       />
     </section>
+
+    <!-- Projects -->
+    <section id="Projects">
+      <h1 class="section_text_title">Projects</h1>
+      <div class="projects-container">test</div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="section_text_title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./images/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:brendonchenwork@gmail.com"
+              >brendonchenwork@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./images/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
     <script src="app.js"></script>
   </body>
 </html>
