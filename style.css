@@ -10,6 +10,10 @@
 body {
   font-family: "Poppins", sans-serif;
   line-height: 2;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 html {
@@ -139,10 +143,8 @@ a:hover {
 /* Profile Section */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  min-height: fit-content;
+  margin: 7rem;
+  height: fit-content;
 }
 
 .section_container {
@@ -153,7 +155,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: fit-content;
 }
 
 .profile_text {
@@ -299,10 +301,12 @@ section {
 /* Projects */
 
 #Projects {
-  margin: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.projects-container {
+.project-container {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -316,7 +320,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: fit-content;
   border-top-style: dotted;
   border-top-width: 0.1rem;
 }
@@ -344,10 +348,15 @@ section {
   font-size: larger;
 }
 
-.contact-icon {
+.regular-icon-1 {
+  height: 2.5rem;
+  cursor: default;
+}
+.regular-icon-2 {
+  height: 2.15rem;
   cursor: default;
 }
 
-.email-icon {
-  height: 2.5rem;
+.para{
+  color: hsl(0, 0%, 0%);
 }
